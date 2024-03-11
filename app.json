@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "UGLMeditation",
+    "slug": "UGLMeditation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/Icon-01-splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/Icon-01.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#2EEAAE"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "uglmeditation",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2EEAAE"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d155304-1f90-4025-99b0-a4d3b4866339"
+      }
+    }
+  }
+}
